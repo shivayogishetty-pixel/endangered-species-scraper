@@ -1,0 +1,124 @@
+Prompts used with AI Tool (Claude by Anthropic)
+================================================
+Student: Shivayogi Shetty
+University: SRH University Campus Hamburg
+Course: Data Management
+Year: Summer 2026
+
+Note: Claude (claude.ai) was used as an AI assistance tool
+during the development of this project. The prompts below
+show how it was used to help fix errors, understand concepts,
+and enhance specific parts of the code.
+
+----------------------------------------------------------------
+
+1. "how do i scrape a website using python without getting blocked?"
+
+   Purpose: To understand how to use Playwright to open a real
+   browser instead of plain requests so websites do not block
+   the scraper.
+
+----------------------------------------------------------------
+
+2. "my beautifulsoup scraper is returning empty results,
+   what could be wrong?"
+
+   Purpose: To debug why the HTML parser was not finding
+   species names on the Wikipedia list pages.
+
+----------------------------------------------------------------
+
+3. "how do i connect python to mongodb atlas?"
+
+   Purpose: To understand how to use pymongo and a connection
+   string to connect my Python script to MongoDB Atlas cloud.
+
+----------------------------------------------------------------
+
+4. "i am getting a PermissionError when saving my csv file,
+   how do i fix it?"
+
+   Purpose: To fix the error that happened when the CSV file
+   was open in Excel while the scraper tried to save to it.
+
+----------------------------------------------------------------
+
+5. "what is the difference between find() and aggregate()
+   in pymongo?"
+
+   Purpose: To understand when to use aggregate() for counting
+   and grouping data instead of find() for the analysis file.
+
+----------------------------------------------------------------
+
+6. "how do i make a bar chart in matplotlib with labels
+   on top of each bar?"
+
+   Purpose: To learn how to add count labels on top of bars
+   in matplotlib for the visualisation charts.
+
+----------------------------------------------------------------
+
+7. "my pie chart is giving an error about edgecolor,
+   how do i fix it?"
+
+   Purpose: To fix the error in 5_visualise.py where the
+   pie chart was failing because of an unsupported parameter
+   in the installed version of matplotlib.
+
+----------------------------------------------------------------
+
+8. "how do i remove duplicate rows from a list of
+   dictionaries in python?"
+
+   Purpose: To learn how to deduplicate the species list
+   after collecting from multiple Wikipedia pages.
+
+----------------------------------------------------------------
+
+9. "what does insert_many() do in pymongo?"
+
+   Purpose: To understand how to insert multiple JSON documents
+   into a MongoDB collection at once instead of one by one.
+
+----------------------------------------------------------------
+
+10. "how do i split a string by comma in python
+    and store it as a list?"
+
+    Purpose: To learn how to split the threats text like
+    "habitat loss, poaching" into a proper Python list
+    for the cleaning step.
+
+----------------------------------------------------------------
+
+11. "can you check my scraper.py file for any errors and fix
+    them? also enhance it with autosaving every 100 species
+    scraped so i dont lose progress if my laptop crashes?"
+
+    Purpose: To fix bugs in the scraper and add the autosave
+    feature so the CSV is saved every 100 species in case
+    the laptop crashes during a long scraping session.
+
+----------------------------------------------------------------
+
+12. "can you check my clean.py, analyse.py, visualise.py
+    and main.py files for any errors and fix them?"
+
+    Purpose: To review and fix any bugs in the data cleaning,
+    analysis, visualisation and main pipeline files before
+    the final submission.
+
+----------------------------------------------------------------
+
+13. "how do i convert my csv file to json format and
+    then store it in mongodb atlas?"
+
+    Purpose: To understand the process of reading a CSV file
+    in Python, converting each row to a JSON document using
+    json.dumps(), and uploading it to MongoDB Atlas using
+    insert_many().
+
+----------------------------------------------------------------
+
+End of prompts file.

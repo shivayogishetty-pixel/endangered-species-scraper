@@ -1,0 +1,19 @@
+# requirements.txt
+# These are all the Python libraries needed to run this project
+# Install them by running: python -m pip install -r requirements.txt
+# Student: Shivayogi Shetty | SRH University Hamburg | 2026
+
+# used for opening a real browser to scrape websites
+playwright==1.59.0
+
+# used for reading and parsing HTML from web pages
+beautifulsoup4==4.14.3
+
+# used for connecting to MongoDB Atlas and storing data
+pymongo==4.17.0
+
+# used for creating charts and graphs
+matplotlib==3.10.1
+
+# used for making HTTP requests (used in some helper functions)
+requests==2.34.2
