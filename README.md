@@ -88,7 +88,7 @@ The project creates 3 collections in MongoDB:
 
 ### Step 1 - Clone the repository
 ```
-git clone https://github.com/yourusername/endangered-species-scraper.git
+https://github.com/shivayogishetty-pixel/endangered-species-scraper.git
 cd endangered-species-scraper
 ```
 
@@ -107,13 +107,16 @@ python -m playwright install chromium
 ### Step 4 - Set up MongoDB connection
 Open `config.py` and replace `YOUR_PASSWORD` with your MongoDB Atlas password:
 ```python
-MONGO_URI = "mongodb+srv://username:YOUR_PASSWORD@endangeredspecies.evn9iew.mongodb.net/"
+"mongodb+srv://shivayogishetty_db_user:pleTZUM9dy1L5Lo4@endangeredspecies.evn9iew.mongodb.net/?appName=EndangeredSpecies"
 ```
 
 ### Step 5 - Run the scraper (optional - data already in all_species.csv)
 ```
 python 1_scrape.py
 ```
+Screenshot of scraper running successfully done after 7 hours 
+<img width="962" height="581" alt="image" src="https://github.com/user-attachments/assets/e49de6d0-2919-49d2-95d7-ec2b88f9904c" />
+
 
 ### Step 6 - Run the full pipeline
 ```
